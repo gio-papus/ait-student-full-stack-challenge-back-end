@@ -1,0 +1,17 @@
+
+GET http://localhost:9000/images
+
+###
+POST  http://localhost:9000/images 
+Content-Type: application/json
+
+{
+    "name":"cat",
+    "rol":"meme",
+    "category":"cat",
+"url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRBgLEpiJfcF59vbhl-94cCDcC_sVjRS1x4A"
+    }
+###
+PUT http://localhost:9000/images/646cc5996cf8fa6c2c3b30f7
+###
+DELETE http://localhost:9000/images/646cc5996cf8fa6c2c3b30f7
