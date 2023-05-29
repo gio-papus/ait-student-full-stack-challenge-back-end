@@ -1,5 +1,5 @@
 import { Router } from "express";
-// import Images from "../models/models"
+
 import {getImages,deleteImages,addImages,changeImages,getImage} from "../controllers/controllers.js"
 const router=Router()
 
